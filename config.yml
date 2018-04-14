@@ -1,0 +1,27 @@
+default_view: first
+views:
+  first:
+    1:
+      text: 👉 pwd
+      command: pwd |tr -d "\\n" |pbcopy
+    2:
+      text: second view
+      view: second
+    3:
+      text: third view
+      view: third
+  second:
+    1:
+      text: 👈 back
+      view: first
+    2:
+      text: current path
+      command: pwd
+    back: first
+  third:
+    1:
+      text: 👈 back
+      view: first
+    2:
+      text: ls
+      command: ls -la
