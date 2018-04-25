@@ -228,4 +228,4 @@ If you have some proposals how to improve this boilerplate feel free to open iss
 
 ## License
 
-Bionic is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
