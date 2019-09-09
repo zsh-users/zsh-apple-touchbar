@@ -5,19 +5,16 @@ class Parser
     new(*args).call
   end
 
-  def initialize(file_path = 'config.yml')
+  def initialize(file_path = __dir__+'/config.yml')
     @file_path = file_path
   end
 
   def call
     [].tap do |code|
-      code << 'source ${0:A:h}/functions.zsh'
       code << "set_state '#{config['default_view']}'"
       code << views_functions
       code << define_views_functions
       code << main_function
-      code << 'autoload -Uz add-zsh-hook'
-      code << "add-zsh-hook precmd precmd_apple_touchbar\n"
     end.join("\n\n")
   end
 
@@ -74,4 +71,4 @@ class Parser
   end
 end
 
-File.open('zsh-apple-touchbar.zsh', 'w') {|f| f.write(Parser.call) }
+File.open(__dir__+'/touchbar-mappings.zsh', 'w') {|f| f.write(Parser.call) }

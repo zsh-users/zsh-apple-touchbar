@@ -23,5 +23,5 @@ views:
       text: 👈 back
       view: first
     2:
-      text: ls
+      text: Hello
       command: ls -la
