@@ -27,7 +27,7 @@ function third_view() {
 	set_state 'third'
 
 	create_key 1 '👈 back' 'first_view'
-	create_key 2 'Hello' 'ls -la' '-s'
+	create_key 2 'ls' 'ls -la' '-s'
 }
 
 zle -N first_view
