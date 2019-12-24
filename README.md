@@ -19,7 +19,7 @@ Make your touchbar more powerful.
 1. Clone this repository somewhere on your machine. This guide will assume `~/.zsh/zsh-apple-touchbar`.
 
 ```sh
-git clone https://github.com/floor114/zsh-apple-touchbar ~/.zsh/zsh-apple-touchbar
+git clone https://github.com/zsh-users/zsh-apple-touchbar ~/.zsh/zsh-apple-touchbar
 ```
 
 2. Add the following to your `.zshrc`:
@@ -36,7 +36,7 @@ source ~/.zsh/zsh-apple-touchbar/zsh-apple-touchbar.zsh
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
 ```sh
-git clone https://github.com/floor114/zsh-apple-touchbar $ZSH_CUSTOM/plugins/zsh-apple-touchbar
+git clone https://github.com/zsh-users/zsh-apple-touchbar $ZSH_CUSTOM/plugins/zsh-apple-touchbar
 ```
 
 2. Add the plugin to the list of plugins for Oh My Zsh to load:
