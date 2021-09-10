@@ -98,13 +98,13 @@ views:
       command: ls -la
 ```
 
-For generating view from `config.yml` file go to its folder:
+To apply changes, either restart `zsh`, resource `~/.zshrc` by running `source ~/.zshrc`, or go to its folder:
 
 ```sh
 cd $ZSH_CUSTOM/plugins/zsh-apple-touchbar
 ```
-
-and run `generate.rb` file:
+and run `source zsh-apply-touchbar.zsh`,  
+or run `generate.rb` file:
 
 ```sh
 ruby generate.rb
