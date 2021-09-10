@@ -1,5 +1,10 @@
 function print_key() {
-  echo -ne $*
+  if [ -n "$TMUX" ]
+  then
+    echo -ne "\ePtmux;\e$*\e\\"
+  else
+    echo -ne $*
+  fi
 }
 
 function remove_keys() {
