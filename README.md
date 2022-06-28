@@ -30,6 +30,13 @@ source ~/.zsh/zsh-apple-touchbar/zsh-apple-touchbar.zsh
 
 3. Start a new terminal session.
 
+### Fig
+
+[Fig](https://fig.io) adds apps, shortcuts, and autocomplete to your existing terminal.
+
+Install `zsh-apple-touchbar` in just one click.
+
+<a href="https://fig.io/plugins/other/zsh-apple-touchbar_zsh-users" target="_blank"><img src="https://fig.io/badges/install-with-fig.svg" /></a>
 
 ### Oh My Zsh
 
@@ -46,6 +53,7 @@ plugins=(zsh-apple-touchbar)
 ```
 
 3. Start a new terminal session.
+
 
 ## Customization
 
