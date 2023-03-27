@@ -31,6 +31,8 @@ function create_key() {
 
   if [ "$4" = "-s" ]; then
     bindkey -s $keys[$1] "$3 \n"
+  elif [ "$4" = "-sn" ]; then
+    bindkey -s $keys[$1] "$3"
   else
     bindkey $keys[$1] $3
   fi
